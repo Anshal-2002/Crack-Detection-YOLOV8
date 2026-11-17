@@ -22,7 +22,7 @@ def main():
     model.train(data=args.data, epochs=args.epochs, imgsz=args.imgsz,
                 batch=args.batch, project="runs", name="crack")
 
-    best = YOLO("runs/crack/weights/best.pt")
+    best = YOLO(model.trainer.best)
     m = best.val(data=args.data, imgsz=args.imgsz)
 
     results = {
