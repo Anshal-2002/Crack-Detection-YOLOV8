@@ -12,7 +12,7 @@ Evaluated on the validation split after 50 epochs.
 | mAP@0.5:0.95 | 0.432 |
 | Precision | 0.665 |
 | Recall | 0.669 |
-| Inference speed | 4.67 ms/image on [hardware] (plus 1.61 ms preprocess, 1.80 ms postprocess) |
+| Inference speed | 4.87 ms/image on [hardware] (plus 1.92 ms preprocess, 2.52 ms postprocess) |
 
 ![Detection example](samples/pred1.jpg)
 ![Training curves](samples/results.png)
