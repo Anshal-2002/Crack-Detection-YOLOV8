@@ -1,0 +1,14 @@
+{
+  "model": "yolov8n.pt",
+  "epochs": 50,
+  "precision": 0.6654,
+  "recall": 0.6688,
+  "mAP50": 0.6797,
+  "mAP50-95": 0.4316,
+  "speed_ms_per_image": {
+    "preprocess": 1.61,
+    "inference": 4.67,
+    "loss": 0.0,
+    "postprocess": 1.8
+  }
+}
