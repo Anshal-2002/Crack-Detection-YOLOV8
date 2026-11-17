@@ -6,9 +6,9 @@
   "mAP50": 0.6797,
   "mAP50-95": 0.4316,
   "speed_ms_per_image": {
-    "preprocess": 1.61,
-    "inference": 4.67,
+    "preprocess": 1.92,
+    "inference": 4.87,
     "loss": 0.0,
-    "postprocess": 1.8
+    "postprocess": 2.52
   }
 }
