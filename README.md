@@ -5,6 +5,7 @@ Built to explore computer vision for civil infrastructure inspection, and export
 
 ## Results
 Evaluated on the validation split after 50 epochs.
+![Confusion matrix](samples/confusion_matrix.png)
 
 | Metric | Value |
 |---|---|
