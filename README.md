@@ -21,8 +21,8 @@ Evaluated on the validation split after 50 epochs.
 Road crack dataset from Roboflow Universe (`okul-ntg10/crack-obr1a`, version 1), licensed **CC BY 4.0**:
 https://universe.roboflow.com/okul-ntg10/crack-obr1a/dataset/1
 
-- 7 classes: Alligator crack, Block crack, Longitudinal crack, Oblique crack, Pothole, Repair, [7th class]
-- Images: [N] train / [N] validation / [N] test
+- 7 classes: Alligator crack, Block crack, Longitudinal crack, Oblique crack, Pothole, Repair, Transverse crack
+- Images: 1,681 train / 240 validation / 480 test
 
 ## Setup
 ```bash
