@@ -38,7 +38,8 @@ Download the dataset in YOLOv8 format and make sure the paths in `data.yaml` poi
 - Best model exported to ONNX (12.2 MB) for edge deployment
 
 ## Limitations / Next steps
-- [Add one or two real failures you saw in the predictions, e.g. a class that is often missed]
+- mAP@0.5:0.95 (0.432) is much lower than mAP@0.5 (0.680), so detection is reliable but box placement is less precise
+- Trained on 1,681 images with the smallest YOLOv8 variant, so rarer damage types may be under-represented
 - Quantize to INT8 and benchmark on edge hardware
 - Try a larger model (YOLOv8s) and more epochs to improve mAP
 
